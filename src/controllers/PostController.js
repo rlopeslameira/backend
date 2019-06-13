@@ -38,7 +38,7 @@ module.exports = {
 
         console.log(image);
 
-        const { name } = image.split('.');
+        const [ name ] = image.split('.');
 
         const fileName = `${name}.jpg`;
 
